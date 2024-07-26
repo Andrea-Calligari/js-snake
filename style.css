@@ -1,0 +1,100 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+menu {
+    list-style-type: none;
+}
+
+/* LAYOUT */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+main {
+    margin-bottom: 24px;
+}
+
+.col-4 {
+    width: calc(100 / 4 * 12);
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+
+}
+
+.container>h1 {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 231, 203);
+}
+
+span {
+    color: rgb(255, 98, 0);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+canvas {
+    border-radius: 24px;
+    box-shadow: 10px 10px 10px 0px black;
+    color: transparent;
+}
+
+#points>li {
+    margin-left: 10px;
+    color: red;
+}
+
+#retry {
+    padding: 8px;
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+    line-height: 16px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#retry:hover {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
