@@ -15,6 +15,8 @@ var velocityY = 0;
 var snakeBody = [];
 var gameOver = false;
 var pointsCounter = 0;
+//
+
 const pointEl = document.getElementById('points');
 const buttonRetry = document.getElementById('retry').addEventListener('click', () => {
     window.location.reload();
